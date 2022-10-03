@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+	<!--create a logo -->
     <link rel="icon" href="images/favicon.ico">
 
     <title>Hoda Afssari</title>
@@ -13,7 +14,9 @@
    <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
+
+		<!--update style sheet -->
+    <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -24,7 +27,8 @@
           <div class="row">
             <div class="col-sm-8 py-4">
               <h4 class="text-white">About</h4>
-              <p class="text-muted">3rd year Digital Media Art student at San Jose State University</p>
+			  	<!--come up with better about -->
+              <p class="text-muted">3rd year Digital Media Art student at San Jose State University (still working on about wording)</p>
             </div>
           </div>
         </div>
@@ -50,6 +54,8 @@
 
       <div class="album text-muted">
         <div class="container">
+
+	<!--image thumbnails -->
 
           <div class="row">
             <div class="card">
@@ -87,8 +93,7 @@
 
         </div>
       </div>
-
-      
+      <!--shows larger version of image thumbnail with close -->
       <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -122,6 +127,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
     <script>
+
+<!--shows larger version of image -->
+
     $(document).ready(function () {
             $('#myModal').on('show.bs.modal', function (e) {
                 var image = $(e.relatedTarget).attr('src');
